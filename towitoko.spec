@@ -3,10 +3,10 @@ Summary(pl):	Uniksowy sterownik do czytników kart procesorowych Towitoko
 Name:		towitoko
 Version:	2.0.7
 Release:	1
+License:	LGPL
+Group:		Libraries
 Source0:	http://www.geocities.com/cprados/files/%{name}-%{version}.tar.gz
 # Source0-md5:	6cb2f842ca11aa79692af89d3730f4ce
-Group:		Libraries
-License:	LGPL
 URL:		http://www.geocities.com/cprados/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -67,7 +67,7 @@ rm -rf $RPM_BUILD_ROOT
 %files devel
 %defattr(644,root,root,755)
 %doc doc/design.html
+%attr(755,root,root) %{_libdir}/*.so
 %{_libdir}/*.la
-%{_libdir}/*.so
 %{_includedir}/*
 %{_mandir}/man3/ct*
