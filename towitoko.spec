@@ -2,7 +2,7 @@ Summary:	Unix driver for Towitoko smartcard readers
 Summary(pl):	Uniksowy sterownik do czytników kart procesorowych Towitoko
 Name:		towitoko
 Version:	2.0.7
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Libraries
 Source0:	http://www.geocities.com/cprados/files/%{name}-%{version}.tar.gz
@@ -43,12 +43,11 @@ Pliki nag³ówkowe do pisania programów z u¿yciem towitoko.
 %setup -q
 
 %build
-
 cp -f /usr/share/automake/config.* .
-
 %configure
 
-%{__make}
+%{__make} \
+	libdir=%{_libdir}
 
 %install
 rm -rf $RPM_BUILD_ROOT
