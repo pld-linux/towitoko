@@ -8,6 +8,7 @@ Group:		Libraries
 Source0:	http://www.geocities.com/cprados/files/%{name}-%{version}.tar.gz
 # Source0-md5:	6cb2f842ca11aa79692af89d3730f4ce
 URL:		http://www.geocities.com/cprados/
+BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -42,6 +43,9 @@ Pliki nag³ówkowe do pisania programów z u¿yciem towitoko.
 %setup -q
 
 %build
+
+cp -f /usr/share/automake/config.* .
+
 %configure
 
 %{__make}
