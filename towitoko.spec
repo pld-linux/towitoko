@@ -58,8 +58,7 @@ Pliki nag³ówkowe do pisania programów z u¿yciem towitoko.
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
-	DESTDIR=$RPM_BUILD_ROOT \
-	libdir=%{_libdir}
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
