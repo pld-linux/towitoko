@@ -4,6 +4,7 @@ Name:		towitoko
 Version:	2.0.7
 Release:	1
 Source0:	http://www.geocities.com/cprados/files/%{name}-%{version}.tar.gz
+# Source0-md5:	6cb2f842ca11aa79692af89d3730f4ce
 Group:		Libraries
 License:	LGPL
 URL:		http://www.geocities.com/cprados/
