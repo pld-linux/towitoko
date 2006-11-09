@@ -33,7 +33,7 @@ czytnikami Towitoko, Kobil i Reiner-SCT.
 Summary:	towitoko development kit
 Summary(pl):	Pakiet programistyczny towitoko
 Group:		Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Header files for writing programs using towitoko.
