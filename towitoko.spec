@@ -1,5 +1,5 @@
 Summary:	Unix driver for Towitoko smartcard readers
-Summary(pl):	Uniksowy sterownik do czytników kart procesorowych Towitoko
+Summary(pl.UTF-8):   Uniksowy sterownik do czytnikÃ³w kart procesorowych Towitoko
 Name:		towitoko
 Version:	2.0.7
 Release:	2
@@ -21,25 +21,25 @@ German medical cards, German "Geldkarten" and HBCI (homebanking) cards
 interfaces and has successfully been tested with Towitoko, Kobil and
 Reiner-SCT readers.
 
-%description -l pl
-Libchipcard pozwala na ³atwy dostêp do kart procesorowych. Udostêpnia
-podstawowy dostêp do kart pamiêciowych i procesorowych, ma specjaln±
-obs³ugê niemieckich kart medycznych, niemieckich "Geldkarten" oraz
-kart do homebankingu HBCI (typu 0 i 1). Dostêp do czytnika mo¿e
-odbywaæ siê przez interfejs CT-API lub PC/SC; by³ testowany z
+%description -l pl.UTF-8
+Libchipcard pozwala na Å‚atwy dostÄ™p do kart procesorowych. UdostÄ™pnia
+podstawowy dostÄ™p do kart pamiÄ™ciowych i procesorowych, ma specjalnÄ…
+obsÅ‚ugÄ™ niemieckich kart medycznych, niemieckich "Geldkarten" oraz
+kart do homebankingu HBCI (typu 0 i 1). DostÄ™p do czytnika moÅ¼e
+odbywaÄ‡ siÄ™ przez interfejs CT-API lub PC/SC; byÅ‚ testowany z
 czytnikami Towitoko, Kobil i Reiner-SCT.
 
 %package devel
 Summary:	towitoko development kit
-Summary(pl):	Pakiet programistyczny towitoko
+Summary(pl.UTF-8):   Pakiet programistyczny towitoko
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Header files for writing programs using towitoko.
 
-%description devel -l pl
-Pliki nag³ówkowe do pisania programów z u¿yciem towitoko.
+%description devel -l pl.UTF-8
+Pliki nagÅ‚Ã³wkowe do pisania programÃ³w z uÅ¼yciem towitoko.
 
 %prep
 %setup -q
