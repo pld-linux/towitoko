@@ -1,5 +1,5 @@
 Summary:	Unix driver for Towitoko smartcard readers
-Summary(pl.UTF-8):   Uniksowy sterownik do czytników kart procesorowych Towitoko
+Summary(pl.UTF-8):	Uniksowy sterownik do czytników kart procesorowych Towitoko
 Name:		towitoko
 Version:	2.0.7
 Release:	2
@@ -31,7 +31,7 @@ czytnikami Towitoko, Kobil i Reiner-SCT.
 
 %package devel
 Summary:	towitoko development kit
-Summary(pl.UTF-8):   Pakiet programistyczny towitoko
+Summary(pl.UTF-8):	Pakiet programistyczny towitoko
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
